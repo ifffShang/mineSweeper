@@ -1,0 +1,10 @@
+.game {
+  height: 200 vh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.control-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
