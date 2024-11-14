@@ -12,6 +12,9 @@ import Difficulty from "./difficulty";
 import EasyGame from "./components/easyGame";
 import HardGame from "./components/hardGame";
 import MidGame from "./components/midGame";
+import EasyGameWrapper from "./components/easyGame/EasyGameWrapper";
+import HardGameWrapper from "./components/hardGame/HardGameWrapper";
+import MidGameWrapper from "./components/midGame/MidGameWrapper";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 const router = createBrowserRouter([
@@ -27,15 +30,15 @@ const router = createBrowserRouter([
          },
          {
             path:'/easyGame',
-            element: <EasyGame/>
+            element: <EasyGameWrapper/>
             },
             {
                 path:'/midGame',
-                element: <MidGame/>
+                element: <MidGameWrapper/>
                 },
                 {
                     path:'/hardGame',
-                    element: <HardGame/>
+                    element: <HardGameWrapper/>
                     }
          
 

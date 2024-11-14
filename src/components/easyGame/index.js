@@ -1,9 +1,11 @@
 import React from "react";
 import Board from "../Board";
+import { useNavigate } from 'react-router-dom';
 
 import "./style.css";
 
 class EasyGame extends React.Component {
+  
   constructor(props) {
     super(props);
 
@@ -43,6 +45,7 @@ class EasyGame extends React.Component {
 
   render() {
     const { height, width, mines, gameStatus } = this.state;
+    const { navigate } = this.props;
     return (
       <div className="game">
         <Board
@@ -54,6 +57,9 @@ class EasyGame extends React.Component {
         />
         <div className="control-buttons">
           <button onClick={this.restartGame}>Restart</button>
+          
+          <button onClick={() => navigate('/difficulty')}>Back</button>
+
 
         </div>
       </div>

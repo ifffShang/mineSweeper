@@ -1,6 +1,7 @@
 import React from "react";
 import Board from "../Board";
 import "./style.css";
+import { Navigate } from "react-router-dom";
 
 class HardGame extends React.Component {
   constructor(props) {
@@ -40,6 +41,7 @@ class HardGame extends React.Component {
   };
 
   render() {
+    const { navigate } = this.props;
     const { height, width, mines, gameStatus } = this.state;
     return (
       <div className="game">
@@ -52,6 +54,7 @@ class HardGame extends React.Component {
         />
         <div className="control-buttons">
           <button onClick={this.restartGame}>Restart</button>
+          <button onClick={() => navigate('/difficulty')}>Back</button>
         </div>
       </div>
     );
