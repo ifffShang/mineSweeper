@@ -1,3 +1,7 @@
+# Depolyed link
+
+https://yifei-shang-pro2-minesweeper.onrender.comLinks to an external site.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
