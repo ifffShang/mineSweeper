@@ -1,4 +1,4 @@
-# Depolyed link
+# Deployed link
 
 [https://yifei-shang-pro2-minesweeper.onrender.comLinks to an external site.](https://yifei-shang-pro2-minesweeper.onrender.com/)
 
