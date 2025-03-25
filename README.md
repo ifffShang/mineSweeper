@@ -1,6 +1,9 @@
 # Depolyed link
 
-https://yifei-shang-pro2-minesweeper.onrender.comLinks to an external site.
+[https://yifei-shang-pro2-minesweeper.onrender.comLinks to an external site.](https://yifei-shang-pro2-minesweeper.onrender.com/)
+
+![image](https://github.com/user-attachments/assets/1c3a22f5-baed-4979-98ca-1aaf8b7732cd)
+
 
 # Getting Started with Create React App
 
